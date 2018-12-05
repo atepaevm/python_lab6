@@ -1,0 +1,464 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/"  >
+  <channel>
+    <title>Хабр / Интересные публикации</title>
+    <link>https://habr.com/</link>
+    <description><![CDATA[Интересные публикации на Хабре]]></description>
+    <language>ru</language>
+    <managingEditor>editor@habr.com</managingEditor>
+    <generator>habr.com</generator>
+    <pubDate>Wed, 28 Nov 2018 13:27:04 GMT</pubDate>
+    <lastBuildDate></lastBuildDate>
+      <image>
+        <link>https://habr.com/</link>
+        <url>https://habr.com/images/logo.png</url>
+        <title>Хабр</title>
+      </image>
+
+          
+
+
+
+    <item>
+      <title><![CDATA[[Перевод] Поддержка Razor в Visual Studio Code]]></title>
+      <guid isPermaLink="true">https://habr.com/post/430962/</guid>
+      <link>https://habr.com/post/430962/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=430962</link>
+      <description><![CDATA[На прошлой неделе мы выпустили превью-версию поддержки работы с файлами Razor (.cshtml) в расширении C# для Visual Studio Code (1.17.1). В этой версии представлены completions C#, directive completions и базовые диагностики для проектов ASP.NET Core. Подробнее под катом!<br>
+<br>
+<img src="https://habrastorage.org/webt/de/d6/yc/ded6ycim8bthflu3havvn1o99uk.gif"> <a href="https://habr.com/post/430962/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=430962#habracut">Читать дальше →</a>]]></description>
+      
+      <pubDate>Wed, 28 Nov 2018 07:00:01 GMT</pubDate>
+      <dc:creator>sahsAGU</dc:creator>
+      <category><![CDATA[Блог компании Microsoft]]></category><category><![CDATA[Visual Studio]]></category><category><![CDATA[Программирование]]></category>
+      <category>Microsoft</category><category>visual studio</category><category>visual studio code</category><category>razor</category>
+    </item>
+
+
+
+      <item>
+      <title><![CDATA[Итерации цикла: как прошла конференция HolyJS, и что насчёт следующей]]></title>
+      <guid isPermaLink="true">https://habr.com/post/431322/</guid>
+      <link>https://habr.com/post/431322/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=431322</link>
+      <description><![CDATA[<img src="https://habrastorage.org/webt/e2/oe/sk/e2oeskxv63wwpiu4y7nnu-t3ujo.jpeg"><br>
+<br>
+В спорте есть выражение «after the game is before the game»: с того момента, когда заканчивается матч, игрокам уже пора готовиться к следующему. Цикл подготовки конференций выглядит похоже. Только на этих выходных отгремела <b>HolyJS 2018 Moscow</b> — а мы уже анонсируем майскую <b><a href="https://holyjs-piter.ru">HolyJS 2019 Piter</a></b> (и сейчас, на старте продаж, билеты дешевле всего). <br>
+<br>
+Из-за этого мы решили совместить обе темы: расскажем вам, как прошла московская HolyJS, и по этому рассказу вы сможете понять, хочется ли вам на петербургскую. В чём были отличия этой HolyJS от предыдущих? Как прошли доклады, и что было интересного, помимо них? Наконец, за что на JS-конференции могли торжественно вручать футболку «ДЖАВА»? Все ответы — под катом.<br> <a href="https://habr.com/post/431322/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=431322#habracut">Читать дальше →</a>]]></description>
+      
+      <pubDate>Wed, 28 Nov 2018 11:55:59 GMT</pubDate>
+      <dc:creator>phillennium</dc:creator>
+      <category><![CDATA[Блог компании JUG.ru Group]]></category><category><![CDATA[JavaScript]]></category><category><![CDATA[Конференции]]></category>
+      <category><![CDATA[HolyJS]]></category><category><![CDATA[JavaScript]]></category>
+    </item>
+
+
+
+
+
+
+
+  
+
+
+
+    <item>
+      <title><![CDATA[[Перевод] Объясняем бэкдор в event-stream]]></title>
+      <guid isPermaLink="true">https://habr.com/post/431360/</guid>
+      <link>https://habr.com/post/431360/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=431360</link>
+      <description><![CDATA[<p>Если вы работаете с Javascript, то скорее всего вы заметили много шума об уязвимости в npm-пакете <a href="https://github.com/dominictarr/event-stream">event-stream</a>. (<em>На Хабре тоже опубликовали <a href="https://habr.com/company/globalsign/blog/431204/">пост об этом</a> — пер.</em>) К сожалению, детальный анализ ситуации похоронен под более чем 600 комментариями в <a href="https://github.com/dominictarr/event-stream/issues/116">issue на Github</a>, большая часть которых – флейм о состоянии npm, open-source в целом и т.д. Я подумал, что это плохо, потому что нам самом деле бэкдор исключительно умный и интересный с технической точки зрения, а также преподает нам важный урок о том, как поддерживать безопасность в приложениях на Javascript. Так что я решил написать пост с детальным объяснением, как сработала эта атака и что может сделать Javascript сообщество, чтобы лучше защититься от подобных атак в будущем.</p> <a href="https://habr.com/post/431360/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=431360#habracut">Читать дальше →</a>]]></description>
+      
+      <pubDate>Wed, 28 Nov 2018 11:30:03 GMT</pubDate>
+      <dc:creator>justboris</dc:creator>
+      <category><![CDATA[JavaScript]]></category><category><![CDATA[Node.JS]]></category><category><![CDATA[Информационная безопасность]]></category>
+      <category>habr</category><category>может</category><category>пора</category><category>сделать</category><category>теги</category><category>опциональными</category>
+    </item>
+
+
+
+      <item>
+      <title><![CDATA[Прерывания от внешних устройств в x86 системе. Опции загрузки ядра Linux]]></title>
+      <guid isPermaLink="true">https://habr.com/post/431372/</guid>
+      <link>https://habr.com/post/431372/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=431372</link>
+      <description><![CDATA[В <a href="https://habr.com/post/430548/">предыдущей части</a> мы рассмотрели эволюцию доставки прерываний от устройств в x86 системах (PIC → APIC → MSI), общую теорию и все необходимые термины. <br>
+<br>
+В этой практической части мы рассмотрим как откатиться к использованию устаревших методов доставки прерываний в Linux, а именно рассмотрим опции загрузки ядра:<br>
+<br>
+<ul>
+<li>pci=nomsi</li>
+<li>noapic</li>
+<li>nolapic</li>
+</ul><br>
+Также мы посмотрим на порядок, в котором ОС смотрит таблицы роутинга прерываний (ACPI/MPtable/$PIR) и какое влияние на него окажет добавление опций загрузки:<br>
+<br>
+<ul>
+<li>pci=noacpi</li>
+<li>acpi=noirq</li>
+<li>acpi=off</li>
+</ul><br>
+Возможно вы пробовали комбинации из всех этих опций, когда какое-либо устройство не работало из-за проблемы с прерываниями. Разберём, что именно они делают и как они меняют вывод /proc/interrupts.<br> <a href="https://habr.com/post/431372/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=431372#habracut">Читать дальше →</a>]]></description>
+      
+      <pubDate>Wed, 28 Nov 2018 12:06:52 GMT</pubDate>
+      <dc:creator>Kostr</dc:creator>
+      <category><![CDATA[Настройка Linux]]></category><category><![CDATA[Системное программирование]]></category>
+      <category><![CDATA[linux]]></category><category><![CDATA[acpi]]></category><category><![CDATA[apic]]></category><category><![CDATA[pic]]></category><category><![CDATA[msi]]></category><category><![CDATA[bios]]></category><category><![CDATA[irq]]></category><category><![CDATA[interrupts]]></category>
+    </item>
+
+
+
+
+
+
+
+      <item>
+      <title><![CDATA[Книга «ДНК. История генетической революции»]]></title>
+      <guid isPermaLink="true">https://habr.com/post/431338/</guid>
+      <link>https://habr.com/post/431338/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=431338</link>
+      <description><![CDATA[<a href="https://habr.com/company/piter/blog/431338/"><img src="https://habrastorage.org/webt/v2/8m/yh/v28myhlqkef7x1dusrthbmxbjqu.jpeg" align="left" alt="image"></a> Познакомьтесь с историей генетической революции, рассказанной Джеймсом Д. Уотсоном, лауреатом Нобелевской премии. Гениальный ученый отправляет нас в величайшее научное путешествие, охватывающее все вехи генетической революции, — от открытия двойной спирали до открытий последнего десятилетия.<br>
+<br>
+Открытие человечеством двойной спирали ДНК по значимости можно сравнить только со свершениями эпохи Просвещения. Естественный отбор все еще действует, но генная терапия уже стала реальностью. Что ждет нас дальше?<br>
+<br>
+Практически не осталось областей науки и деятельности, которые в той или иной степени не были бы связаны с генетикой: редактирование генов, эпигенетика, агрохимия, геномика и исследования рака — только вершина айсберга.<br> <a href="https://habr.com/post/431338/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=431338#habracut">Читать дальше →</a>]]></description>
+      
+      <pubDate>Wed, 28 Nov 2018 09:03:08 GMT</pubDate>
+      <dc:creator>ph_piter</dc:creator>
+      <category><![CDATA[Блог компании Издательский дом «Питер»]]></category><category><![CDATA[Мозг]]></category><category><![CDATA[Научно-популярное]]></category><category><![CDATA[Читальный зал]]></category>
+      <category><![CDATA[книги]]></category>
+    </item>
+
+
+
+
+
+
+
+      <item>
+      <title><![CDATA[Встраиваемая акустика: что это и как она работает]]></title>
+      <guid isPermaLink="true">https://habr.com/post/431344/</guid>
+      <link>https://habr.com/post/431344/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=431344</link>
+      <description><![CDATA[Обычно, слыша об «акустической системе», люди представляют провода и колонки, которые занимают всё свободное пространство в комнате. Но на деле это не всегда так: аудиосистему можно разместить на потолке или целиком спрятать в специальных нишах в стене. Поговорим о встраиваемой акустике, о том, как она устроена и где такие системы применяют.<br>
+<br>
+<a href="https://habr.com/company/audiomania/blog/431344/"><img src="https://habrastorage.org/webt/bu/ml/3a/buml3amiqrap8zgbqem-wahmiam.jpeg"></a> <a href="https://habr.com/post/431344/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=431344#habracut">Читать дальше →</a>]]></description>
+      
+      <pubDate>Wed, 28 Nov 2018 10:06:56 GMT</pubDate>
+      <dc:creator>Audioman</dc:creator>
+      <category><![CDATA[Блог компании Аудиомания]]></category><category><![CDATA[Звук]]></category><category><![CDATA[Периферия]]></category>
+      <category><![CDATA[аудиомания]]></category><category><![CDATA[звук]]></category><category><![CDATA[акустика]]></category><category><![CDATA[Cerasonar]]></category>
+    </item>
+
+
+
+
+
+
+
+      <item>
+      <title><![CDATA[Первый видеокодек на машинном обучении кардинально превзошёл все существующие кодеки, в том числе H.265 и VP9]]></title>
+      <guid isPermaLink="true">https://habr.com/post/431354/</guid>
+      <link>https://habr.com/post/431354/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=431354</link>
+      <description><![CDATA[<div style="text-align:center;"><img src="https://habrastorage.org/webt/ss/22/b8/ss22b8wzp8kwtuug_hv6v2edaou.png"></div><br>
+<i><font color="gray">Примеры реконструкции фрагмента видео, сжатого разными кодеками с примерно одинаковым значением BPP (бит на пиксель). Сравнительные результаты тестирования см. под катом</font></i> <br>
+<br>
+Исследователи из компании WaveOne <a href="https://www.technologyreview.com/s/612462/deep-learning-will-help-keep-video-from-clogging-up-the-internet/">утверждают</a>, что близки к революции в области видеокомпрессии. При обработке видео высокого разрешения 1080p их <a href="https://arxiv.org/abs/1811.06981">новый кодек на машинном обучении</a> сжимает видео примерно на 20%лучше, чем самые современные традиционные видеокодеки, такие как H.265 и VP9. А на видео стандартного размера разница достигает 60%.<br> <a href="https://habr.com/post/431354/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=431354#habracut">Читать дальше →</a>]]></description>
+      
+      <pubDate>Wed, 28 Nov 2018 11:27:07 GMT</pubDate>
+      <dc:creator>alizar</dc:creator>
+      <category><![CDATA[Видеокарты]]></category><category><![CDATA[Видеотехника]]></category><category><![CDATA[Машинное обучение]]></category><category><![CDATA[Работа с видео]]></category><category><![CDATA[Софт]]></category>
+      <category><![CDATA[H.265]]></category><category><![CDATA[VP9]]></category><category><![CDATA[видеокодек]]></category><category><![CDATA[машинное обучение]]></category>
+    </item>
+
+
+
+
+
+
+
+      <item>
+      <title><![CDATA[Самые быстрые отчёты на диком западе. И горстка багов в придачу…]]></title>
+      <guid isPermaLink="true">https://habr.com/post/431370/</guid>
+      <link>https://habr.com/post/431370/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=431370</link>
+      <description><![CDATA[<p></p><div style="text-align:center;"><img src="https://habrastorage.org/getpro/habr/post_images/e31/a8a/e21/e31a8ae21e6997c220a18cf2ac49b67b.png" alt="Picture 3"></div><br>
+Не только Microsoft в последнее время выкладывает код собственных проектов в открытый доступ — другие компании тоже следуют этой тенденции. Для нас же — разработчиков PVS-Studio — это отличный способ ещё раз протестировать анализатор, посмотреть, что интересного он сможет найти и сообщить об этом авторам проекта. Сегодня заглядываем внутрь проекта компании Fast Reports.<br> <a href="https://habr.com/post/431370/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=431370#habracut">Читать дальше →</a>]]></description>
+      
+      <pubDate>Wed, 28 Nov 2018 12:04:51 GMT</pubDate>
+      <dc:creator>foto_shooter</dc:creator>
+      <category><![CDATA[Блог компании PVS-Studio]]></category><category><![CDATA[.NET]]></category><category><![CDATA[C#]]></category><category><![CDATA[Open source]]></category><category><![CDATA[Программирование]]></category>
+      <category><![CDATA[статический анализ кода]]></category><category><![CDATA[PVS-Studio]]></category><category><![CDATA[static code analysis]]></category><category><![CDATA[open source]]></category><category><![CDATA[C#]]></category><category><![CDATA[.Net]]></category><category><![CDATA[FastReport]]></category><category><![CDATA[Fast Reports]]></category><category><![CDATA[bugs]]></category>
+    </item>
+
+
+
+
+
+
+
+  
+
+
+
+    <item>
+      <title><![CDATA[[Перевод] Microsoft предлагает альтернативу пользовательским персонажам]]></title>
+      <guid isPermaLink="true">https://habr.com/post/431324/</guid>
+      <link>https://habr.com/post/431324/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=431324</link>
+      <description><![CDATA[<div style="text-align:center;"><img src="https://habrastorage.org/webt/c_/sh/9w/c_sh9w8yiuvfmtxnephsdvtduss.png"></div><br>
+<br>
+В 1983 году Алан Купер легким взмахом руки пробудил к жизни первого пользовательского персонажа в дизайне. Купер, разработчик ПО, который положил начало многим новым концепциям, тогда как раз провел опрос группы потенциальных клиентов. К нему пришло понимание, что сосредоточившись на мотивах реальных пользователей, а не собственных нуждах, можно с большим успехом решать сложные проблемы. В дальнейшем в своем критическом анализе дизайна Купер стал моделировать жесты, речевые характеристики и мыслительный процесс вымышленных индивидов, которые создавались с опорой на образы опрошенных им людей.<br>
+<br>
+Концепция персонажей быстро набрала популярность как в сфере дизайна, так и в разработке. И неудивительно: они помогают нам лучше понять, что нужно потребителям и предугадать, как они поведут себя в тех ситуациях, когда прямая коммуникация может быть затруднена. <br>
+<br>
+Но сейчас мы начинаем осознавать, в чем состоит отрицательная сторона персонажей. Они по природе своей являются амальгамацией, усредненным набором атрибутов, которые мы приписываем своему среднему пользователю. А в реальности средних пользователей попросту не бывает.<br> <a href="https://habr.com/post/431324/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=431324#habracut">Читать дальше →</a>]]></description>
+      
+      <pubDate>Wed, 28 Nov 2018 11:33:31 GMT</pubDate>
+      <dc:creator>mixa_medved</dc:creator>
+      <category><![CDATA[Блог компании Everyday Tools]]></category><category><![CDATA[Дизайн]]></category><category><![CDATA[Дизайн мобильных приложений]]></category><category><![CDATA[Управление продуктом]]></category>
+      <category>ux</category><category>ux design</category><category>дизайн</category><category>персоны</category><category>персонажи</category><category>исследование пользователей</category><category>исследование аудитории</category><category>проектирование по</category>
+    </item>
+
+
+
+      <item>
+      <title><![CDATA[Планы по развития линейки процессоров компании Baikal Electronics]]></title>
+      <guid isPermaLink="true">https://habr.com/post/431350/</guid>
+      <link>https://habr.com/post/431350/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=431350</link>
+      <description><![CDATA[<p>На национальном суперкомпьютером форуме <a href="http://2018.nscf.ru">НСКФ-2018</a>, проходящим в эти дни в Переславле — Залесском, компания Т-Платформы в лице Александра Мурашёва, представила <s>план по захвату вселенной</s> стратегию развития бизнеса компании на ближайшие годы, в том числе и её дочерней компании Байкал Электроникс. Видео с презентацией доступно <a href="https://youtu.be/Up07YGjfGG8?t=7954">по ссылке</a>.</p><br>
+<p>Компания Байкал Электроникс планирует выпустить на рынок линейку процессоров.</p><br>
+<img src="https://habrastorage.org/webt/25/kl/ut/25kluttgab7jmqgepealuas9ipm.png" alt="image"> <a href="https://habr.com/post/431350/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=431350#habracut">Далее</a>]]></description>
+      
+      <pubDate>Wed, 28 Nov 2018 10:57:51 GMT</pubDate>
+      <dc:creator>lelik363</dc:creator>
+      <category><![CDATA[Высокая производительность]]></category><category><![CDATA[Процессоры]]></category>
+      <category><![CDATA[baikal electronics]]></category><category><![CDATA[baikal-m]]></category><category><![CDATA[baikal-s]]></category>
+    </item>
+
+
+
+
+
+
+
+      <item>
+      <title><![CDATA[Читаете ли вы Scaladoc для «очевидных» методов коллекций? Или почему лениться не всегда хорошо]]></title>
+      <guid isPermaLink="true">https://habr.com/post/430538/</guid>
+      <link>https://habr.com/post/430538/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=430538</link>
+      <description><![CDATA[<p>Если вы не знаете, чем отличаются </p><br>
+<pre><code class="scala">someMap.map{ case (k, v) =&gt; k -&gt; foo(v)}</code></pre><br>
+<p>и</p><br>
+<pre><code class="scala">someMap.mapValues(foo)</code></pre><br>
+<p>кроме синтаксиса или сомневаетесь/не знаете, к каким плохим последствиям это отличие может привести и причем тут <code>identity</code>, то это статья для вас. </p><br>
+<p>В противном случае — поучаствуйте в опросе, расположенном в конце статьи.</p> <a href="https://habr.com/post/430538/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=430538#habracut">Я заинтригован</a>]]></description>
+      
+      <pubDate>Wed, 28 Nov 2018 10:38:11 GMT</pubDate>
+      <dc:creator>ov7a</dc:creator>
+      <category><![CDATA[Блог компании ИНФОРИОН]]></category><category><![CDATA[Scala]]></category>
+      <category><![CDATA[scala]]></category><category><![CDATA[mapValues]]></category><category><![CDATA[filterKeys]]></category><category><![CDATA[scaladoc]]></category><category><![CDATA[wat]]></category><category><![CDATA[view]]></category><category><![CDATA[неочевидно]]></category><category><![CDATA[коллекции]]></category>
+    </item>
+
+
+
+
+
+
+
+      <item>
+      <title><![CDATA[Как мы в Neoflex развиваем экспертизу DevOps]]></title>
+      <guid isPermaLink="true">https://habr.com/post/431104/</guid>
+      <link>https://habr.com/post/431104/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=431104</link>
+      <description><![CDATA[<p>После выделения DevOps внутри компании «Неофлекс» в отдельное бизнес-направление команда стала активно наращивать экспертизу и делиться найденными источниками знаний друг с другом. В этом посте я поделюсь с вами личным опытом погружения в тему и наиболее интересными ресурсами.<br>
+</p><br>
+<img src="https://habrastorage.org/webt/pl/7_/3-/pl7_3-zp6r3xvuybvzaapbmmrwi.jpeg"><br>
+<br>
+<p>Основными источниками информации по теме стали следующие:</p><br>
+<ul>
+<li> Интернет-ресурсы – как независимые, так и компаний разработчиков</li>
+<li> Статьи и презентации</li>
+<li> Литература</li>
+<li> Конференции</li>
+<li> Программы обучения – как платные, так и бесплатные</li>
+</ul> <a href="https://habr.com/post/431104/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=431104#habracut">Читать дальше →</a>]]></description>
+      
+      <pubDate>Mon, 26 Nov 2018 10:17:36 GMT</pubDate>
+      <dc:creator>JenoOvchi</dc:creator>
+      <category><![CDATA[Блог компании Неофлекс]]></category><category><![CDATA[DevOps]]></category>
+      <category><![CDATA[devops]]></category><category><![CDATA[саморазвитие]]></category><category><![CDATA[экспертиза]]></category><category><![CDATA[литература]]></category><category><![CDATA[ресурсы]]></category><category><![CDATA[ресурсы для разработчиков]]></category>
+    </item>
+
+
+
+
+
+
+
+  
+    <item>
+        <title><![CDATA[Подсмотрено, подслушано и записано на HighLoad++ 2018]]></title>
+        <guid isPermaLink="true">https://habr.com/post/431100/</guid>
+        <link>https://habr.com/post/431100/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=431100</link>
+        <description><![CDATA[В этом году московский HighLoad++ побил очередной рекорд, собрав в стенах кампуса Сколково 3096 участников. Под катом подробности двенадцатой по счету конференции. О докладах, спикерах, митапах, выпитых литрах пива, съеденных пирожных, татуировках, чемпионате по Counter-Strike и прочих многочисленных интересностях. <a href="https://habr.com/post/431100/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=431100#habracut">Подробности — под катом</a>]]></description>
+        
+        <pubDate>Wed, 28 Nov 2018 09:49:27 GMT</pubDate>
+        <dc:creator>megapost</dc:creator>
+        <category><![CDATA[Карьера в IT-индустрии]]></category><category><![CDATA[Конференции]]></category><category><![CDATA[Высокая производительность]]></category><category><![CDATA[Учебный процесс в IT]]></category>
+        <category><![CDATA[Highload]]></category>
+    </item>
+
+
+
+
+
+
+      <item>
+      <title><![CDATA[Обзор самых интересных докладов DotNext 2018: версия EastBanc Technologies]]></title>
+      <guid isPermaLink="true">https://habr.com/post/431332/</guid>
+      <link>https://habr.com/post/431332/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=431332</link>
+      <description><![CDATA[Привет, хабровчане!<br>
+<br>
+Мы вернулись с конференции для .NET-разработчиков <a href="https://dotnext-moscow.ru/">DotNext</a> и честно делимся впечатлениями про самые запомнившиеся доклады. Надеемся, наш отзыв пригодится тем, кто будет смотреть видеозаписи выступлений. <br>
+<br>
+На сайте конференции опубликована часть презентаций, так что мы дополнили некоторые отзывы ссылками на них.<br>
+<br>
+<img src="https://habrastorage.org/webt/lm/tg/i4/lmtgi4glgwbthvorkytj0indjuc.jpeg"><br> <a href="https://habr.com/post/431332/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=431332#habracut">Читать дальше →</a>]]></description>
+      
+      <pubDate>Wed, 28 Nov 2018 09:16:43 GMT</pubDate>
+      <dc:creator>eastbanctech</dc:creator>
+      <category><![CDATA[Блог компании EastBanc Technologies]]></category><category><![CDATA[.NET]]></category><category><![CDATA[C#]]></category><category><![CDATA[Конференции]]></category>
+      <category><![CDATA[dotnet]]></category><category><![CDATA[dotnext]]></category><category><![CDATA[dotnext2018]]></category><category><![CDATA[dotnext2018moscow]]></category>
+    </item>
+
+
+
+
+
+
+
+  
+
+
+
+    <item>
+      <title><![CDATA[[Перевод] Руководство по обработке ошибок в JavaScript]]></title>
+      <guid isPermaLink="true">https://habr.com/post/431078/</guid>
+      <link>https://habr.com/post/431078/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=431078</link>
+      <description><![CDATA[Ошибки — это хорошо. Автор материала, перевод которого мы сегодня публикуем, говорит, что уверен в том, что эта идея известна всем. На первый взгляд ошибки кажутся чем-то страшным. Им могут сопутствовать какие-то потери. Ошибка, сделанная на публике, вредит авторитету того, кто её совершил. Но, совершая ошибки, мы на них учимся, а значит, попадая в следующий раз в ситуацию, в которой раньше вели себя неправильно, делаем всё как нужно.<br>
+<br>
+<a href="https://habr.com/company/ruvds/blog/431078/"><img src="https://habrastorage.org/webt/9q/dw/s5/9qdws5ejk1iibkjghqujq6m4c_4.jpeg"></a><br>
+<br>
+Выше мы говорили об ошибках, которые люди совершают в обычной жизни. Ошибки в программировании — это нечто иное. Сообщения об ошибках помогают нам улучшать код, они позволяют сообщать пользователям наших проектов о том, что что-то пошло не так, и, возможно, рассказывают пользователям о том, как нужно вести себя для того, чтобы ошибок больше не возникало.<br> <a href="https://habr.com/post/431078/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=431078#habracut">Читать дальше →</a>]]></description>
+      
+      <pubDate>Wed, 28 Nov 2018 09:00:02 GMT</pubDate>
+      <dc:creator>ru_vds</dc:creator>
+      <category><![CDATA[Блог компании RUVDS.com]]></category><category><![CDATA[JavaScript]]></category><category><![CDATA[Отладка]]></category><category><![CDATA[Разработка веб-сайтов]]></category>
+      <category>JavaScript</category><category>разработка</category>
+    </item>
+
+
+
+      <item>
+      <title><![CDATA[Внедряете CRM-систему? Снимите розовые очки]]></title>
+      <guid isPermaLink="true">https://habr.com/post/431018/</guid>
+      <link>https://habr.com/post/431018/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=431018</link>
+      <description><![CDATA[Бывает такое: ходишь в спортзал, качаешься, занимаешься на беговой дорожке, наяриваешь свои 15 км в день. И вдруг теряешь сознание и понеслась: нарушения мозгового кровообращения, анемия и ещё несколько диагнозов, о которых ещё неделю назад ты даже не подозревал. Что делать: жить как раньше, лечить, ждать нового криза, оставить как есть? Как правило, такая точка невозврата заставляет человека изменить жизнь и пойти по пути наименьшего сопротивления — всё бросить. И только сильные духом умудряются стать ещё спортивнее, здоровее и побороть всё, что побороть можно. <br>
+<br>
+В бизнесе та же история: какой-то внешний фактор может нарушить всё сложившееся равновесие, раскачать дела, взбудоражить сотрудников. И вот уже приятная контора с неизменным кофе с печеньками и болтовнёй по утрам превращается в гудящий рой, террариум или серпентарий. Начинается борьба всех против всех. А всего делов-то: например, внедрили CRM-систему, интранет, систему управления проектами.<br>
+<br>
+<a href="https://habr.com/company/regionsoft/blog/431018/"><div style="text-align:center;"><img src="https://habrastorage.org/getpro/habr/post_images/736/3e5/f5c/7363e5f5cf1a627b6bbd57c6ece404a3.png" width="700"></div></a> <a href="https://habr.com/post/431018/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=431018#habracut">Читать дальше →</a>]]></description>
+      
+      <pubDate>Wed, 28 Nov 2018 10:18:10 GMT</pubDate>
+      <dc:creator>Axelus</dc:creator>
+      <category><![CDATA[Блог компании RegionSoft Developer Studio]]></category><category><![CDATA[CRM-системы]]></category><category><![CDATA[ERP-системы]]></category><category><![CDATA[IT-инфраструктура]]></category><category><![CDATA[Управление проектами]]></category>
+      <category><![CDATA[crm]]></category><category><![CDATA[crm-система]]></category><category><![CDATA[crm внедрение]]></category><category><![CDATA[regionsoft crm]]></category><category><![CDATA[regionsoft]]></category>
+    </item>
+
+
+
+
+
+
+
+      <item>
+      <title><![CDATA[Разработка Action-able приложения для Slack]]></title>
+      <guid isPermaLink="true">https://habr.com/post/431346/</guid>
+      <link>https://habr.com/post/431346/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=431346</link>
+      <description><![CDATA[<img src="https://habrastorage.org/getpro/habr/post_images/ca0/857/93d/ca085793d555da41e3362e86f4ac612a.png"><br>
+ <br>
+<b>От переводчика:</b> публикуем для вас <a href="https://medium.com/slack-developer-blog/tutorial-developing-an-action-able-app-4d5455d585b6">статью</a> Томоми Имуры о том, как разработать приложение, интегрированное со Slack<br>
+ <br>
+Actions — то, что позволяет пользователям Slack взаимодействовать с вашим приложением при помощи сообщений: сообщить о проблеме с багом, отправить запрос в хелпдеск или сделать что-то еще. Эта функция похожа на встроенные возможности вроде комментирования или шеринга. <br>
+<br>
+Этот туториал проведет вас через весь процесс создания действующего приложения. <br> <a href="https://habr.com/post/431346/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=431346#habracut">Читать дальше →</a>]]></description>
+      
+      <pubDate>Wed, 28 Nov 2018 10:26:47 GMT</pubDate>
+      <dc:creator>skillbox</dc:creator>
+      <category><![CDATA[Блог компании Skillbox]]></category><category><![CDATA[Программирование]]></category><category><![CDATA[Учебный процесс в IT]]></category>
+      <category><![CDATA[slack]]></category><category><![CDATA[приложения]]></category><category><![CDATA[app]]></category><category><![CDATA[разработка приложений]]></category><category><![CDATA[программирование]]></category><category><![CDATA[обучение]]></category><category><![CDATA[skillbox]]></category>
+    </item>
+
+
+
+
+
+
+
+      <item>
+      <title><![CDATA[Проектирование типами: Как сделать некорректные состояния невыразимыми на C#]]></title>
+      <guid isPermaLink="true">https://habr.com/post/431186/</guid>
+      <link>https://habr.com/post/431186/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=431186</link>
+      <description><![CDATA[<p>Как правило статьи, рассказывающие о проектировании типами, содержат примеры на функциональных языках — Haskell, F# и других. Может показаться, что эта концепция неприменима к объектно-ориентированным языкам, но это не так.</p><br>
+<p>В этой статье я переведу примеры из статьи <abbr title="Scott Wlaschin">Скотта Власчина</abbr> <a href="https://habr.com/post/424895/">Проектирование типами: Как сделать некорректные состояния невыразимыми</a> на <a href="http://blog.ploeh.dk/2015/08/03/idiomatic-or-idiosyncratic/">идеоматический</a> C#. Также я постараюсь показать, что этот подход применим не только в качестве эксперимента, но и в рабочем коде.</p> <a href="https://habr.com/post/431186/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=431186#habracut">Читать дальше →</a>]]></description>
+      
+      <pubDate>Wed, 28 Nov 2018 07:17:54 GMT</pubDate>
+      <dc:creator>MaxKot</dc:creator>
+      <category><![CDATA[.NET]]></category><category><![CDATA[C#]]></category><category><![CDATA[ООП]]></category><category><![CDATA[Функциональное программирование]]></category>
+      <category><![CDATA[.net]]></category><category><![CDATA[c#]]></category><category><![CDATA[функциональное программирование]]></category><category><![CDATA[архитектура]]></category><category><![CDATA[архитектура приложений]]></category><category><![CDATA[domain-driven design]]></category>
+    </item>
+
+
+
+
+
+
+
+      <item>
+      <title><![CDATA[Serverless убьет DevOps?]]></title>
+      <guid isPermaLink="true">https://habr.com/post/430268/</guid>
+      <link>https://habr.com/post/430268/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=430268</link>
+      <description><![CDATA[<img src="https://habrastorage.org/webt/df/dj/sf/dfdjsfdshrkhfjdiloi3nt5y98k.png"><br>
+<br>
+Каждый раз, когда приходится читать про очередного новорожденного убийцу айфона или фейсбука, невольно начинаешь улыбаться. За эти годы столько их уже было, а воз и ныне там. Поэтому, наткнувшись на очередную публикацию, где ключевой мыслью была идея о том, что наступающая эпоха бессерверных вычислений приложений (Serverless) «съест» DevOps, скепсису не было предела. <a href="https://habr.com/post/430268/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=430268#habracut">Читать дальше →</a>]]></description>
+      
+      <pubDate>Wed, 28 Nov 2018 09:49:16 GMT</pubDate>
+      <dc:creator>RUSONYX</dc:creator>
+      <category><![CDATA[Блог компании Rusonyx]]></category><category><![CDATA[Amazon Web Services]]></category><category><![CDATA[DevOps]]></category><category><![CDATA[IT-инфраструктура]]></category><category><![CDATA[Хостинг]]></category>
+      <category><![CDATA[rusonyx]]></category><category><![CDATA[serverless]]></category><category><![CDATA[devops]]></category><category><![CDATA[хостинг]]></category><category><![CDATA[хостинг-провайдеры]]></category><category><![CDATA[т хостинги]]></category>
+    </item>
+
+
+
+
+
+
+
+      <item>
+      <title><![CDATA[Екатеринбург глазами приезжего или 5 лет спустя после первого знакомства]]></title>
+      <guid isPermaLink="true">https://habr.com/post/428826/</guid>
+      <link>https://habr.com/post/428826/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=428826</link>
+      <description><![CDATA[Кажется, про Екатеринбург статей еще не было, и я решил это исправить, потому что этот город часто упоминают в комментариях к подобным статьям. Многие живут в своих городах и довольны жизнью. Привыкают к ним. Иногда им не с чем сравнивать. Мне довелось побывать во многих городах и сравнивать есть с чем и как человек, который переехал в Екатеринбург, хочу написать о том, что вас ждет, если вы приедете [жить] в этот город. <br>
+<br>
+Осторожно, под катом фотки.<br> <a href="https://habr.com/post/428826/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=428826#habracut">Читать дальше →</a>]]></description>
+      
+      <pubDate>Wed, 28 Nov 2018 03:06:10 GMT</pubDate>
+      <dc:creator>Areso</dc:creator>
+      <category><![CDATA[Карьера в IT-индустрии]]></category>
+      <category><![CDATA[релокация]]></category><category><![CDATA[Екатеринбург]]></category><category><![CDATA[переезд]]></category>
+    </item>
+
+
+
+
+
+
+
+
+
+
+
+  </channel>
+</rss>
