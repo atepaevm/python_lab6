@@ -2,35 +2,47 @@ from django.shortcuts import render
 
 # Create your views here.
 from django.views import View
-from django.db.models.functions import Coalesce
+from django.db.utils import IntegrityError
+import urllib3
 import bs4
 from datetime import datetime
 
 from .models import Item
 
+
 class RSS(View):
     def get(self, request):
-        xml = bs4.BeautifulSoup(open("rss/habr.xml", encoding="utf-8").read(), 'xml')
+
+        page = urllib3.PoolManager().request("GET", "https://habr.com/rss/interesting/")
+        xml = bs4.BeautifulSoup(page.data, 'xml')
         for item in xml.find_all('item'):
-            #from rss.models import Item
-            title = str(item.title.string)
-            link = str(item.guid.string)
-            desc = str(item.description.string)
-            date = str(item.pubDate.string)
-            #print("1)", title)
-            #print("2)", link)
-            #print("3)", desc)
-            #print("4)", datetime.strptime(date, '%a, %d %b %Y %X GMT'))
-            #print("\n\n\n")
+            try:
+                title = str(item.title.string)
+                link = str(item.guid.string)
+                desc = str(item.description.string)
+                date = str(item.pubDate.string)
+                i, created = Item.objects.get_or_create(
+                    header=title,
+                    link=link,
+                    description=desc,
+                    date=datetime.strptime(date, '%a, %d %b %Y %X GMT')
 
-            #i = Item.create(title, link, desc, datetime.strptime(date, '%a, %d %b %Y %X GMT'))
-            #i.save();
+                )
+                if created:
+                    i.save()
+            except IntegrityError:
+                print("Ой, ну бывает")
+                print([title, link, desc, date])
+
         items = Item.objects.all().order_by('-date')
-        for item in items:
-            print(item.date)
-        print(len(items))
-
-        return render(request, 'rss.html')
+        s = ""
+        context = {}
+        for i in range(10):
+            item = items[i]
+            context["header" + str(i)] = str(item.header)
+            context["link" + str(i)] = str(item.link)
+            context["date" + str(i)] = str(item.date)
+        return render(request, 'rss.html', context)
 
     def post(self):
         return
